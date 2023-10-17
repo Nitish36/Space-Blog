@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(2,0,36),no-repeat;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,5,60,1) 48%, rgba(4,3,92,1) 96%) no-repeat;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+}
+.table{
+    margin: 10%;
+    display: block;
+}
+.table .left{
+    float: left;
+}
+
+.table .left h1{
+    
+    font-weight: bold;
+    color: white;
+}
+.table .left p{
+    
+    color: white;
+}
+.table .left .links a{
+    color: white;
+    font-size: smaller;
+}
+.table .left p.hr{
+    color: rgb(197, 196, 196);
+}
+.table .left p.img{
+    color: gray;
+}
+.table .right{
+    float: right;
+}
+.table .left img.spect{
+    width: 700px;
+}
+.table .right h1{
+    color: white;
+}
+.table .right h4{
+    color: white;
+}
+.table .right ol li{
+    font-size: large;
+    color: white;
+}
+.table .right ol li h4 a{
+    text-decoration: none;
+    color: white;
+}
